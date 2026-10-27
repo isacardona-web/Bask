@@ -1,4 +1,5 @@
 :root {
+   :root {
     --rojo: #CE1141;
     --rojo-oscuro: #9E0B31;
     --negro: #0E0E0E;
@@ -183,12 +184,14 @@ body {
     outline-offset: 3px;
 }
 
+/* Imagen principal de LeBron */
 .panel-izquierda {
     background-image:
         linear-gradient(160deg, rgba(14, 14, 14, 0.15) 30%, rgba(206, 17, 65, 0.85) 100%),
-        url("../img/LeBron-James-Los-Angeles-Lakers-Staples-Center-2019.webp.webp");
+        url("../img/leBron-James-Los-Angeles-Lakers-Staples-Center-2019.webp.webp");
     background-size: cover;
-    background-position: top;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .fila {
@@ -197,19 +200,21 @@ body {
     gap: 12px;
 }
 
-.fila>div {
+.fila > div {
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
 
+/* Imagen alternativa para las páginas con la clase azul */
 .panel-izquierda.azul {
     background-image:
         linear-gradient(160deg, rgba(14, 14, 14, 0.15) 30%, rgba(206, 17, 65, 0.85) 100%),
         url("../img/8faafbe6-usatsi_2120524.jpg");
     background-position: center 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
 
 @media (max-width: 760px) {
     .contenedor-global {

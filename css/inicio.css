@@ -1,10 +1,11 @@
+
 :root {
-    --rojo: #ce1141;
-    --negro: #0e0e0e;
-    --carbon: #1b1b1b;
-    --blanco: #ffffff;
-    --crema: #f4efe6;
-    --gris: #8a8a8a;
+    --rojo: #CE1141;
+    --negro: #0E0E0E;
+    --carbon: #1B1B1B;
+    --blanco: #FFFFFF;
+    --crema: #F4EFE6;
+    --gris: #8A8A8A;
 }
 
 * {
@@ -31,9 +32,9 @@ body {
 
 .etiqueta {
     margin: 0 0 10px;
-    font-size: 0.8rem;
+    font-size: .8rem;
     font-weight: 700;
-    letter-spacing: 0.16em;
+    letter-spacing: .16em;
     text-transform: uppercase;
     color: var(--rojo);
 }
@@ -56,7 +57,7 @@ body {
     background: var(--blanco);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 30px 80px rgba(206, 17, 65, 0.25);
+    box-shadow: 0 30px 80px rgba(206,17,65,.25);
 }
 
 .franja {
@@ -79,15 +80,15 @@ thead th {
     color: var(--blanco);
     text-align: left;
     padding: 16px 18px;
-    font-size: 0.72rem;
+    font-size: .72rem;
     font-weight: 700;
-    letter-spacing: 0.08em;
+    letter-spacing: .08em;
     text-transform: uppercase;
     white-space: nowrap;
 }
 
 tbody tr {
-    border-bottom: 1px solid #eee2de;
+    border-bottom: 1px solid #EEE2DE;
 }
 
 tbody tr:last-child {
@@ -95,13 +96,13 @@ tbody tr:last-child {
 }
 
 tbody tr:hover {
-    background: #fdf2f4;
+    background: #FDF2F4;
 }
 
 td {
     padding: 14px 18px;
     vertical-align: middle;
-    font-size: 0.92rem;
+    font-size: .92rem;
 }
 
 .jugador {
@@ -113,6 +114,7 @@ td {
 .foto {
     width: 46px;
     height: 46px;
+    flex-shrink: 0;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid var(--crema);
@@ -120,11 +122,11 @@ td {
 
 .nombre strong {
     display: block;
-    font-size: 0.95rem;
+    font-size: .95rem;
 }
 
 .posicion {
-    font-size: 0.78rem;
+    font-size: .78rem;
     color: var(--gris);
 }
 
